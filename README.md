@@ -35,7 +35,7 @@ Prueba Chi-cuadrada
 Herramientas Utilizadas: pandas, scipy.stats, matplotlib, seaborn
 
 ## 🔄 Etapas del Análisis
-Este proyecto sigue un flujo estructurado de análisis dividido en 5 etapas principales:
+Este proyecto sigue un flujo estructurado de análisis dividido en 6 etapas principales:
 
 | Etapa	 | Descripción | Resultado Esperado |
 |---------|-------------|-------------------|
@@ -52,22 +52,22 @@ Variable objetivo: converted (tasa de conversión) y gasto (revenue)
 Tipo de relaciones analizadas: Comparación entre grupos, variables binarias y asociación entre variables categóricas
 
 ### 📊 Resultado Final
-Un reporte de rentabilidad y retención que combina:
+Un reporte inferencial que contiene:
 
-✅ Evidencia visual (Dashboard interactivo en PowerBI)
-✅ Evidencia numérica (KPIs de performance)
-✅ Análisis de funnel de conversión
-✅ Retención por cohortes
 ✅ Validación de hipótesis (Test A/B)
+  ○ Relación entre gasto promedio y landing page
+  ○ Relación entre tasa de conversión y landing page
+  ○ Relación
+✅ Evidencia visual
 ✅ Implicaciones de negocio accionables
 
 ## ▶ Cómo abrir el notebook en Google Colab
 
 Haz clic en el siguiente botón:
-[Google Colab](https://colab.research.google.com/drive/1d5hEBvqIXTaKGqIwQrEE1zKKEPFnitgY?usp=sharing)
+[Google Colab](https://colab.research.google.com/drive/11FUTZyapwP7IhT1vJ2ic0Ws2U6vZiCG0?usp=sharing)
 
 ## 📘 Cómo reproducir el análisis
 
-1. Abre `notebooks/Estudiante_Proyecto_Final.ipynb`
+1. Abre `notebooks/Version_Student_Proyecto_Landing_Experiment.ipynb`
 2. Ejecuta las celdas en orden
 3. El notebook carga automáticamente el dataset desde `/data/`
